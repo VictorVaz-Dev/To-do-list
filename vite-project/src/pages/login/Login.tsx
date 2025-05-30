@@ -21,7 +21,7 @@ const Login = () => {
 
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            navigate("www.google.com");
+            navigate("/Home");
         } catch (err: any) {
             console.error(err);
             switch (err.code) {
@@ -88,7 +88,7 @@ const Login = () => {
                 </form>
                 <p className="mt-4 text-center text-sm text-gray-600 dark:text-gray-300">
                     Não tem uma conta?{" "}
-                    <Link to="/cadastro" className="text-blue-600 hover:underline">
+                    <Link to="/Cadastro" className="text-blue-600 hover:underline">
                         Cadastre-se
                     </Link>
                 </p>
