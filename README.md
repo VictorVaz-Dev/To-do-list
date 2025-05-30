@@ -34,7 +34,7 @@ Projeto de uma **aplicação web para gerenciamento de tarefas**, desenvolvido p
    ```bash
    npm run dev
    
-##🧰 Tecnologias utilizadas
+## 🧰 Tecnologias utilizadas
 
 ⚛️ React + Vite
 
