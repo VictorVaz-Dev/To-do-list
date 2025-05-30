@@ -24,7 +24,7 @@ Projeto de uma **aplicação web para gerenciamento de tarefas**, desenvolvido p
    
 2. Acesse o diretório do projeto:
    ```bash
-   cd vyte-project
+   cd vite-project
    
 3. Instale as dependências:
    ```bash
